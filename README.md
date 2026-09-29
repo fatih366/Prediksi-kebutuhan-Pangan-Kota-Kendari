@@ -23,9 +23,9 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan denga
 
 ## 📌 Latar Belakang & Keterkaitan SDGs
 
-- **Topik SDGs:** SDGs 2 (Zero Hunger) – Mengakhiri kelaparan, mencapai ketahanan pangan, memperbaiki gizi, dan mendukung pertanian berkelanjutan.
-- **Masalah:** Pertumbuhan jumlah penduduk menyebabkan kebutuhan pangan, khususnya beras, terus meningkat setiap tahun.
-- **Solusi:** Membangun model Machine Learning untuk memprediksi kebutuhan beras berdasarkan data historis sehingga dapat membantu perencanaan stok pangan di Kota Kendari.
+- **Topik SDGs:** SDGs 2 – Mengakhiri Kelaparan.
+- **Masalah:** Pertumbuhan jumlah penduduk menyebabkan kebutuhan beras terus meningkat setiap tahun sehingga diperlukan perencanaan pangan yang tepat.
+- **Solusi:** Membangun model Machine Learning untuk memprediksi kebutuhan beras masyarakat Kota Kendari berdasarkan data historis.
 
 ---
 
@@ -41,7 +41,14 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan denga
 
 ### Sumber Data
 
-Data diperoleh dari publikasi Badan Pusat Statistik (BPS) dan data produksi pertanian Kota Kendari.
+Dataset yang digunakan dalam penelitian ini berasal dari:
+
+1. **Badan Pusat Statistik (BPS)**
+   - Data jumlah penduduk Kota Kendari tahun 2018–2024.
+   - Data konsumsi beras per kapita masyarakat Kota Kendari.
+
+2. **Kaggle**
+   - Dataset produksi beras yang digunakan sebagai variabel pendukung dalam proses prediksi.
 
 ### Variabel Dataset
 
@@ -50,16 +57,17 @@ Data diperoleh dari publikasi Badan Pusat Statistik (BPS) dan data produksi pert
 | Tahun | Tahun pengamatan |
 | Penduduk | Jumlah penduduk Kota Kendari |
 | Produksi Beras | Total produksi beras (Ton) |
-| Konsumsi Beras per Kapita | Konsumsi rata-rata beras per orang |
+| Konsumsi Beras per Kapita | Konsumsi rata-rata beras per orang (kg/minggu) |
 | Konsumsi Beras | Total kebutuhan beras (Ton) |
 
 ### Periode Data
 
-2018 - 2024
+2018 – 2024
 
 ### Jumlah Data
 
 7 Tahun Pengamatan
+
 
 ---
 
