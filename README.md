@@ -43,13 +43,10 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan denga
 
 Dataset yang digunakan dalam penelitian ini berasal dari:
 
-1. **Badan Pusat Statistik (BPS)**
-   - Data jumlah penduduk Kota Kendari tahun 2018–2024.
-   - Data konsumsi beras per kapita masyarakat Kota Kendari.
+1. **-Badan Pusat Statistik (BPS)**
 
 2. **Kaggle**
-   - Dataset produksi beras yang digunakan sebagai variabel pendukung dalam proses prediksi.
-
+  
 ### Variabel Dataset
 
 | Variabel | Keterangan |
