@@ -43,10 +43,8 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan denga
 
 Dataset yang digunakan dalam penelitian ini berasal dari:
 
-1. **-Badan Pusat Statistik (BPS)**
+**Badan Pusat Statistik (BPS) dan Juga Kaggel**
 
-2. **Kaggle**
-  
 ### Variabel Dataset
 
 | Variabel | Keterangan |
