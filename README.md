@@ -1,16 +1,17 @@
-# Project Machine Learning - SDGs 2: Zero Hunger
+# Project Machine Learning - SDGs 2: Mengakhiri Kelaparan
 
-## Penerapan Artificial Intelligence untuk Memprediksi Kebutuhan Beras dalam Mendukung SDGs di Kota Kendari
+## Penerapan Artificial Intelligence untuk Memprediksi Kebutuhan Beras dalam Mendukung SDGs 2: Mengakhiri Kelaparan di Kota Kendari
 
-Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Machine Learning dengan fokus pada penerapan kecerdasan buatan dalam memprediksi kebutuhan beras masyarakat Kota Kendari. Hasil prediksi diharapkan dapat membantu perencanaan kebutuhan pangan serta mendukung pencapaian Sustainable Development Goals (SDGs) 2: Zero Hunger.
+Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan dengan fokus pada penerapan kecerdasan buatan(AI) dalam memprediksi kebutuhan beras masyarakat Kota Kendari. Hasil prediksi diharapkan dapat membantu perencanaan kebutuhan pangan serta mendukung pencapaian Tujuan Pembangunan Berkelanjutan (SDGs) 2: Mengakhiri Kelaparan.
+
 
 ---
 
 ## 👥 Anggota Kelompok
 
-- Fatihah Maulana
-- Cinta Aprilianti
-- Aisyah
+- Fatihah Maulana_F1G125031
+- Cinta Aprilianti Hartono Haris_F1G125028
+- Waode Nur Aisya_F1G125019
 
 **Program Studi:** Ilmu Komputer
 
