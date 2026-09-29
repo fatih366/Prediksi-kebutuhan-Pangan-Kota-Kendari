@@ -1,6 +1,6 @@
 # Project Machine Learning - SDGs 2: Zero Hunger
 
-## Penerapan Machine Learning untuk Memprediksi Kebutuhan Beras dalam Mendukung SDGs di Kota Kendari
+## Penerapan Artificial Intelligence untuk Memprediksi Kebutuhan Beras dalam Mendukung SDGs di Kota Kendari
 
 Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Machine Learning dengan fokus pada penerapan kecerdasan buatan dalam memprediksi kebutuhan beras masyarakat Kota Kendari. Hasil prediksi diharapkan dapat membantu perencanaan kebutuhan pangan serta mendukung pencapaian Sustainable Development Goals (SDGs) 2: Zero Hunger.
 
