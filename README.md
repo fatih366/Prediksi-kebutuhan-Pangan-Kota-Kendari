@@ -2,16 +2,15 @@
 
 ## Penerapan Artificial Intelligence untuk Memprediksi Kebutuhan Beras dalam Mendukung SDGs 2: Mengakhiri Kelaparan di Kota Kendari
 
-Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan dengan fokus pada penerapan kecerdasan buatan(AI) dalam memprediksi kebutuhan beras masyarakat Kota Kendari. Hasil prediksi diharapkan dapat membantu perencanaan kebutuhan pangan serta mendukung pencapaian Tujuan Pembangunan Berkelanjutan (SDGs) 2: Mengakhiri Kelaparan.
-
+Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan (Artificial Intelligence). Fokus penelitian adalah membangun model Machine Learning untuk memprediksi kebutuhan beras masyarakat Kota Kendari berdasarkan data historis jumlah penduduk dan konsumsi beras.
 
 ---
 
 ## 👥 Anggota Kelompok
 
-- Fatihah Maulana_F1G125031
-- Cinta Aprilianti Hartono Haris_F1G125028
-- Waode Nur Aisya_F1G125019
+- Fatih Maulana (F1G125031)
+- Cinta Aprianti Hartono Haris (F1G125028)
+- Waode Nur Aisya (F1G125019)
 
 **Program Studi:** Ilmu Komputer
 
@@ -23,17 +22,20 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan denga
 
 ## 📌 Latar Belakang & Keterkaitan SDGs
 
-- **Topik SDGs:** SDGs 2 – Mengakhiri Kelaparan.
-- **Masalah:** Pertumbuhan jumlah penduduk menyebabkan kebutuhan beras terus meningkat setiap tahun sehingga diperlukan perencanaan pangan yang tepat.
-- **Solusi:** Membangun model Machine Learning untuk memprediksi kebutuhan beras masyarakat Kota Kendari berdasarkan data historis.
+### SDGs 2: Mengakhiri Kelaparan
+
+Pertumbuhan jumlah penduduk menyebabkan kebutuhan pangan, khususnya beras, terus meningkat setiap tahun. Oleh karena itu diperlukan metode prediksi yang dapat membantu perencanaan kebutuhan pangan secara lebih efektif.
+
+Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras masyarakat dapat diprediksi berdasarkan data historis sehingga dapat membantu pengambilan keputusan dalam perencanaan pangan.
 
 ---
 
 ## 🎯 Tujuan Proyek
 
-1. Mengembangkan model Machine Learning untuk memprediksi kebutuhan beras masyarakat Kota Kendari.
-2. Menganalisis hubungan antara jumlah penduduk, produksi beras, dan konsumsi beras per kapita terhadap kebutuhan beras.
-3. Menghasilkan prediksi kebutuhan beras pada tahun berikutnya sebagai bahan pertimbangan perencanaan pangan.
+1. Membangun model Machine Learning untuk memprediksi kebutuhan beras Kota Kendari.
+2. Menganalisis pengaruh jumlah penduduk terhadap kebutuhan beras.
+3. Membandingkan performa algoritma Decision Tree dan Random Forest.
+4. Menghasilkan prediksi kebutuhan beras pada tahun berikutnya.
 
 ---
 
@@ -41,83 +43,79 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan denga
 
 ### Sumber Data
 
-Dataset yang digunakan dalam penelitian ini berasal dari:
-
-**Badan Pusat Statistik (BPS) dan Juga Kaggel**
+- Badan Pusat Statistik (BPS)
+- Kaggle
 
 ### Variabel Dataset
 
 | Variabel | Keterangan |
 |-----------|------------|
-| Tahun | Tahun pengamatan |
-| Penduduk | Jumlah penduduk Kota Kendari |
-| Produksi Beras | Total produksi beras (Ton) |
-| Konsumsi Beras per Kapita | Konsumsi rata-rata beras per orang (kg/minggu) |
-| Konsumsi Beras | Total kebutuhan beras (Ton) |
+| Tahun | Tahun Pengamatan |
+| Penduduk (Ribu Jiwa) | Jumlah Penduduk Kota Kendari |
+| Produksi Beras (Ton) | Produksi Beras Tahunan |
+| Konsumsi Beras per Kapita | Konsumsi Beras Per Orang |
+| Konsumsi Beras (Ton) | Target Prediksi |
 
 ### Periode Data
 
 2018 – 2024
 
-### Jumlah Data
+---
 
-7 Tahun Pengamatan
+## 🔍 Tahapan Penelitian
 
+1. Import Dataset
+2. Data Cleaning
+3. Preprocessing
+4. Exploratory Data Analysis (EDA)
+5. Feature Selection
+6. Train-Test Split
+7. Pemodelan Machine Learning
+8. Evaluasi Model
+9. Prediksi Kebutuhan Beras
 
 ---
 
-## 🤖 Algoritma Machine Learning
+## 🤖 Algoritma yang Digunakan
 
-Model yang digunakan:
+### Decision Tree Regressor
 
-- Linear Regression
+Digunakan untuk memprediksi kebutuhan beras berdasarkan pola hubungan antara tahun dan jumlah penduduk.
 
-Alasan pemilihan:
+### Random Forest Regressor
 
-- Cocok untuk data numerik.
-- Mudah diinterpretasikan.
-- Sesuai untuk jumlah data yang relatif sedikit.
-- Dapat digunakan untuk memprediksi nilai kebutuhan beras pada masa mendatang.
+Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi prediksi.
 
 ---
 
-## 📈 Hasil Prediksi
+## 📈 Hasil Evaluasi Model
 
-Model digunakan untuk mempelajari pola hubungan antara:
+| Metrik | Decision Tree | Random Forest |
+|---------|---------:|---------:|
+| MAE | 1316.14 | 1529.40 |
+| MSE | 2263596.27 | 2870420.63 |
+| RMSE | 1504.53 | 1694.23 |
+| R² Score | -3.26 | -4.40 |
 
-- Jumlah Penduduk
-- Produksi Beras
-- Konsumsi Beras per Kapita
+### Kesimpulan Evaluasi
 
-terhadap:
-
-- Konsumsi Beras Total
-
-Hasil prediksi menunjukkan bahwa kebutuhan beras Kota Kendari cenderung meningkat seiring bertambahnya jumlah penduduk.
-
----
-
-## 📉 Visualisasi Data
-
-Visualisasi yang digunakan:
-
-- Grafik Jumlah Penduduk per Tahun
-- Grafik Produksi Beras per Tahun
-- Grafik Konsumsi Beras per Tahun
-- Grafik Prediksi Kebutuhan Beras
+- Decision Tree menghasilkan nilai MAE dan RMSE yang lebih rendah.
+- Random Forest memiliki tingkat kesalahan yang lebih besar dibanding Decision Tree.
+- Berdasarkan hasil evaluasi, Decision Tree memberikan performa yang lebih baik pada dataset yang digunakan.
 
 ---
 
-## 💡 Kesimpulan
+## 📊 Prediksi Kebutuhan Beras
 
-- Machine Learning dapat digunakan untuk memprediksi kebutuhan beras berdasarkan data historis.
-- Jumlah penduduk memiliki pengaruh yang besar terhadap peningkatan kebutuhan beras.
-- Hasil prediksi dapat membantu perencanaan kebutuhan pangan dan pengambilan keputusan terkait ketahanan pangan daerah.
-- Proyek ini mendukung pencapaian SDGs 2 (Zero Hunger).
+| Tahun | Prediksi Decision Tree | Prediksi Random Forest |
+|---------|---------:|---------:|
+| 2025 | 32530.62 Ton | 32317.37 Ton |
+| 2026 | 32530.62 Ton | 32317.37 Ton |
+| 2027 | 32530.62 Ton | 32317.37 Ton |
 
 ---
 
-## 🛠️ Teknologi & Library yang Digunakan
+## 🛠️ Teknologi dan Library
 
 ### Bahasa Pemrograman
 
@@ -128,6 +126,7 @@ Visualisasi yang digunakan:
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Scikit-Learn
 
 ### Platform
@@ -139,8 +138,8 @@ Visualisasi yang digunakan:
 
 ## 📚 Referensi
 
-1. Badan Pusat Statistik Kota Kendari.
-2. Kota Kendari Dalam Angka.
-3. Dokumentasi Scikit-Learn.
-4. Dokumentasi Pandas.
-5. Sustainable Development Goals (SDGs).
+1. Badan Pusat Statistik (BPS)
+2. Dataset Kaggle
+3. Scikit-Learn Documentation
+4. Pandas Documentation
+5. Sustainable Development Goals (SDGs)
