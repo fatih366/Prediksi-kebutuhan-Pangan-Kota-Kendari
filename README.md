@@ -6,7 +6,7 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan (Arti
 
 ---
 
-## Anggota Kelompok
+## 1 Anggota Kelompok
 
 - Fatih Maulana (F1G125031)
 - Cinta Aprianti Hartono Haris (F1G125028)
@@ -20,9 +20,9 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan (Arti
 
 ---
 
-## Latar Belakang & Keterkaitan SDGs
+## 2 Latar Belakang & Keterkaitan SDGs
 
-### SDGs 2: Mengakhiri Kelaparan
+### 2.1 SDGs 2: Mengakhiri Kelaparan
 
 Pertumbuhan jumlah penduduk menyebabkan kebutuhan pangan, khususnya beras, terus meningkat setiap tahun. Oleh karena itu diperlukan metode prediksi yang dapat membantu perencanaan kebutuhan pangan secara lebih efektif.
 
@@ -30,7 +30,7 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## Tujuan Proyek
+## 3 Tujuan Proyek
 
 1. Membangun model Machine Learning untuk memprediksi kebutuhan beras Kota Kendari.
 2. Menganalisis pengaruh jumlah penduduk terhadap kebutuhan beras.
@@ -39,14 +39,14 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## Dataset
+## 4 Dataset
 
-### Sumber Data
+### 4.1 Sumber Data
 
 - Badan Pusat Statistik (BPS)
 - Kaggle
 
-### Variabel Dataset
+### 4.2 Variabel Dataset
 
 | Variabel | Keterangan |
 |-----------|------------|
@@ -56,13 +56,13 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 | Konsumsi Beras per Kapita | Konsumsi Beras Per Orang |
 | Konsumsi Beras (Ton) | Target Prediksi |
 
-### Periode Data
+### 4.3 Periode Data
 
 2018 – 2024
 
 ---
 
-## Tahapan Penelitian
+## 5 Tahapan Penelitian
 
 1. Import Dataset
 2. Data Cleaning
@@ -76,19 +76,19 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## Algoritma yang Digunakan
+## 6 Algoritma yang Digunakan
 
-### Decision Tree Regressor
+### 6.1 Decision Tree Regressor
 
 Digunakan untuk memprediksi kebutuhan beras berdasarkan pola hubungan antara tahun dan jumlah penduduk.
 
-### Random Forest Regressor
+### 6.2 Random Forest Regressor
 
 Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi prediksi.
 
 ---
 
-## Hasil Evaluasi Model
+## 7 Hasil Evaluasi Model
 
 | Metrik | Decision Tree | Random Forest |
 |---------|---------:|---------:|
@@ -97,7 +97,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 | RMSE | 1504.53 | 1694.23 |
 | R² Score | -3.26 | -4.40 |
 
-### Kesimpulan Evaluasi
+### 7.1 Kesimpulan Evaluasi
 
 - Decision Tree menghasilkan nilai MAE dan RMSE yang lebih rendah.
 - Random Forest memiliki tingkat kesalahan yang lebih besar dibanding Decision Tree.
@@ -105,7 +105,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## Prediksi Kebutuhan Beras
+## 8 Prediksi Kebutuhan Beras
 
 | Tahun | Prediksi Decision Tree | Prediksi Random Forest |
 |---------|---------:|---------:|
@@ -115,13 +115,13 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## Teknologi dan Library
+## 9 Teknologi dan Library
 
-### Bahasa Pemrograman
+### 9.1 Bahasa Pemrograman
 
 - Python
 
-### Library
+### 9.2 Library
 
 - Pandas
 - NumPy
@@ -129,14 +129,14 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 - Seaborn
 - Scikit-Learn
 
-### Platform
+### 9.3 Platform
 
 - Google Colab
 - GitHub
 
 ---
 
-## Referensi
+## 10 Referensi
 
 1. Badan Pusat Statistik (BPS)
 2. Dataset Kaggle
