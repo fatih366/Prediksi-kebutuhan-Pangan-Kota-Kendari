@@ -6,7 +6,7 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan (Arti
 
 ---
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 
 - Fatih Maulana (F1G125031)
 - Cinta Aprianti Hartono Haris (F1G125028)
@@ -20,7 +20,7 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan (Arti
 
 ---
 
-## 📌 Latar Belakang & Keterkaitan SDGs
+## Latar Belakang & Keterkaitan SDGs
 
 ### SDGs 2: Mengakhiri Kelaparan
 
@@ -30,7 +30,7 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## 🎯 Tujuan Proyek
+## Tujuan Proyek
 
 1. Membangun model Machine Learning untuk memprediksi kebutuhan beras Kota Kendari.
 2. Menganalisis pengaruh jumlah penduduk terhadap kebutuhan beras.
@@ -39,7 +39,7 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 ### Sumber Data
 
@@ -62,7 +62,7 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## 🔍 Tahapan Penelitian
+## Tahapan Penelitian
 
 1. Import Dataset
 2. Data Cleaning
@@ -76,7 +76,7 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## 🤖 Algoritma yang Digunakan
+## Algoritma yang Digunakan
 
 ### Decision Tree Regressor
 
@@ -88,7 +88,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## 📈 Hasil Evaluasi Model
+## Hasil Evaluasi Model
 
 | Metrik | Decision Tree | Random Forest |
 |---------|---------:|---------:|
@@ -105,7 +105,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## 📊 Prediksi Kebutuhan Beras
+## Prediksi Kebutuhan Beras
 
 | Tahun | Prediksi Decision Tree | Prediksi Random Forest |
 |---------|---------:|---------:|
@@ -115,7 +115,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## 🛠️ Teknologi dan Library
+## Teknologi dan Library
 
 ### Bahasa Pemrograman
 
@@ -136,7 +136,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## 📚 Referensi
+## Referensi
 
 1. Badan Pusat Statistik (BPS)
 2. Dataset Kaggle
