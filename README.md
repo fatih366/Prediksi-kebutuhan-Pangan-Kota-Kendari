@@ -1,6 +1,6 @@
 # Project Machine Learning - SDGs 2: Mengakhiri Kelaparan
 
-## cuki Artificial Intelligence untuk Memprediksi Kebutuhan Beras dalam Mendukung SDGs 2: Mengakhiri Kelaparan di Kota Kendari
+## Penerapan Artificial Intelligence untuk Memprediksi Kebutuhan Beras dalam Mendukung SDGs 2: Mengakhiri Kelaparan di Kota Kendari
 
 Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan (Artificial Intelligence). Fokus penelitian adalah membangun model Machine Learning untuk memprediksi kebutuhan beras masyarakat Kota Kendari berdasarkan data historis jumlah penduduk dan konsumsi beras.
 
