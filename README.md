@@ -6,7 +6,7 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan (Arti
 
 ---
 
-## 1 Anggota Kelompok
+## 1. Anggota Kelompok
 
 - Fatih Maulana (F1G125031)
 - Cinta Aprianti Hartono Haris (F1G125028)
