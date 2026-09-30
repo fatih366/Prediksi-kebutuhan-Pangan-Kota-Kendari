@@ -20,7 +20,7 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah Kecerdasan Buatan (Arti
 
 ---
 
-## 2 Latar Belakang & Keterkaitan SDGs
+## 2. Latar Belakang & Keterkaitan SDGs
 
 ### 2.1 SDGs 2: Mengakhiri Kelaparan
 
@@ -30,7 +30,7 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## 3 Tujuan Proyek
+## 3. Tujuan Proyek
 
 1. Membangun model Machine Learning untuk memprediksi kebutuhan beras Kota Kendari.
 2. Menganalisis pengaruh jumlah penduduk terhadap kebutuhan beras.
@@ -62,7 +62,7 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## 5 Tahapan Penelitian
+## 5. Tahapan Penelitian
 
 1. Import Dataset
 2. Data Cleaning
@@ -76,7 +76,7 @@ Melalui penerapan Artificial Intelligence dan Machine Learning, kebutuhan beras 
 
 ---
 
-## 6 Algoritma yang Digunakan
+## 6. Algoritma yang Digunakan
 
 ### 6.1 Decision Tree Regressor
 
@@ -88,7 +88,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## 7 Hasil Evaluasi Model
+## 7. Hasil Evaluasi Model
 
 | Metrik | Decision Tree | Random Forest |
 |---------|---------:|---------:|
@@ -105,7 +105,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## 8 Prediksi Kebutuhan Beras
+## 8. Prediksi Kebutuhan Beras
 
 | Tahun | Prediksi Decision Tree | Prediksi Random Forest |
 |---------|---------:|---------:|
@@ -115,7 +115,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## 9 Teknologi dan Library
+## 9. Teknologi dan Library
 
 ### 9.1 Bahasa Pemrograman
 
@@ -136,7 +136,7 @@ Menggunakan kumpulan Decision Tree untuk meningkatkan stabilitas dan akurasi pre
 
 ---
 
-## 10 Referensi
+## 10. Referensi
 
 1. Badan Pusat Statistik (BPS)
 2. Dataset Kaggle
